@@ -1,1 +1,0 @@
-# shelld1core
