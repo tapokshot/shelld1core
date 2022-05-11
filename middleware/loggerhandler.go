@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/shelld1t/core/common"
-	"github.com/shelld1t/core/log"
+	"github.com/tapokshot/shelld1core/common"
+	"github.com/tapokshot/shelld1core/log"
 )
 
 const (
@@ -55,7 +55,6 @@ func RequestLogger(skipPaths []string) echo.MiddlewareFunc {
 		}
 	}
 }
-
 
 // Recovery returns a gin.HandlerFunc (middleware)
 // that recovers from any panics and logs requests using uber-go/zap.

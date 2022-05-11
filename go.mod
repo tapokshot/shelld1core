@@ -1,6 +1,6 @@
 module github.com/tapokshot/shelld1core
 
-go 1.17
+go 1.18
 
 require (
 	github.com/labstack/echo/v4 v4.6.1

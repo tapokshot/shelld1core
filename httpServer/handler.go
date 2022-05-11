@@ -3,11 +3,10 @@ package httpServer
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/pkg/errors"
-	"github.com/shelld1t/core/model"
+	"github.com/tapokshot/shelld1core/model"
 )
 
 type HandlerFunc = func(ctx echo.Context) model.Response
-
 
 func wrapHandler(handlerFunc HandlerFunc) echo.HandlerFunc {
 	return func(ctx echo.Context) error {

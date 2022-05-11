@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/shelld1t/core/httpServer"
-	"github.com/shelld1t/core/model"
+	"github.com/tapokshot/shelld1core/httpServer"
+	"github.com/tapokshot/shelld1core/model"
 )
 
 type Health struct {

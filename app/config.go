@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/shelld1t/core/log"
-	database "github.com/shelld1t/core/store"
+	"github.com/tapokshot/shelld1core/log"
+	database "github.com/tapokshot/shelld1core/store"
 	"gopkg.in/yaml.v2"
 )
 

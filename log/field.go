@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/shelld1t/core/traceutils"
+	"github.com/tapokshot/shelld1core/traceutils"
 	"go.uber.org/zap"
 )
 

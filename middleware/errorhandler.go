@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/shelld1t/core/log"
-	"github.com/shelld1t/core/model"
+	"github.com/tapokshot/shelld1core/log"
+	"github.com/tapokshot/shelld1core/model"
 )
 
 func ErrorHandler() echo.HTTPErrorHandler {

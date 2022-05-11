@@ -2,8 +2,8 @@ package app
 
 import (
 	"github.com/pkg/errors"
-	"github.com/shelld1t/core/httpServer"
-	"github.com/shelld1t/core/log"
+	"github.com/tapokshot/shelld1core/httpServer"
+	"github.com/tapokshot/shelld1core/log"
 )
 
 type App struct {
