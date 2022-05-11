@@ -1,4 +1,4 @@
-module github.com/shelld1t/core
+module github.com/tapokshot/shelld1core
 
 go 1.17
 
