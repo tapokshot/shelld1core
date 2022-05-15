@@ -11,7 +11,7 @@ import (
 type Health struct {
 }
 
-func newHealthController() *Health {
+func NewHealthController() *Health {
 	return &Health{}
 }
 

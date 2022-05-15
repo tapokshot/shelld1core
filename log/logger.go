@@ -29,7 +29,7 @@ func SetRootLog(log *Logger) {
 	rootLog = log
 }
 
-func NewLogger(config *Config) (*Logger, error) {
+func NewLogger() (*Logger, error) {
 	zapLog, err := createZapLog()
 	if err != nil {
 		return nil, fmt.Errorf("error create zap zapLog %v", err)
